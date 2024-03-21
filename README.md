@@ -19,7 +19,7 @@
   <li>https://www.npmjs.com/package/react-router-dom</li>
 </ul>
 <h3>Deployed URL</h3>
-https://mytodo-apps.netlify.app/
+https://guvi-blogs.netlify.app/
 
 <h5>Screenshots</h5>
 1.Home Page
