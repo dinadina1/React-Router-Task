@@ -1,8 +1,29 @@
-# React + Vite
+# React Router Task
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>This webpage is used to read blog.</p>
+<p>Here is various blog in Full Stack Development, Cyber Security, Data Science, Career.</p>
+<p>Its fully Responsive.</p>
 
-Currently, two official plugins are available:
+  <h4>Used Tools</h4>
+<ul>
+  <li>Html</li>
+  <li>CSS</li>
+  <li>Bootstrap</li>
+  <li>Javascript</li>
+  <li>React JS</li>
+</ul>
+<h4>Npm Packages are used:</h4>
+<ul>
+  <li>https://www.npmjs.com/package/bootstrap</li>
+  <li>https://www.npmjs.com/package/@fontsource/poppins</li>
+  <li>https://www.npmjs.com/package/react-router-dom</li>
+</ul>
+<h3>Deployed URL</h3>
+https://mytodo-apps.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<h5>Screenshots</h5>
+1.Home Page
+<img src="./src/assets/screenshot.png">
+
+
+
