@@ -126,7 +126,7 @@ function App() {
       id: 12,
       domain: "Full Stack Development",
       title: "Hot Topics That You Need To Know In Full Stack Developer Syllabus | 2024 [U...",
-      imageURL: "https://www.guvi.in/blog/wp-content/uploads/2021/09/Full-Stack-Developer-course-syllabus.png",
+      imageURL: "https://www.guvi.in/blog/wp-content/uploads/2023/08/Feature-image-Best-Full-Stack-Development-Online-Courses.webp",
       referenceURL: "https://www.guvi.in/blog/full-stack-developer-syllabus/",
       postedBy: "Archana",
       postedOn: "14 Dec, 2023",
@@ -226,7 +226,7 @@ function App() {
       id: 22,
       domain: "Cyber Security",
       title: "Is coding required for cybersecurity? If yes, how crucial is coding for cyb...",
-      imageURL: "https://www.guvi.in/blog/wp-content/uploads/2022/06/8bfd01c18be1b5059bc0d7770d9dabf1.gif",
+      imageURL: "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-What-Is-Hacking_-Types-of-Hacking-More.webp",
       referenceURL: "https://www.guvi.in/blog/coding-for-cybersecurity/",
       postedBy: "Tushar Vinocha",
       postedOn: "05 Oct, 2023",
@@ -236,7 +236,7 @@ function App() {
       id: 23,
       domain: "Cyber Security",
       title: "Top 7 Cyber Security Attacks in Real Life",
-      imageURL: "https://www.guvi.in/blog/wp-content/uploads/2022/06/Types-of-Cyber-Security-Attacks-and-How-to-Minimize-the-Impact.jpg",
+      imageURL: "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-What-Is-Hacking_-Types-of-Hacking-More.webp",
       referenceURL: "https://www.guvi.in/blog/cyber-security-attacks-in-real-life/",
       postedBy: "Lahari Chandana",
       postedOn: "05 Oct, 2023",
@@ -246,7 +246,7 @@ function App() {
       id: 24,
       domain: "Cyber Security",
       title: "The Cybersecurity Surge: 5 Must-Have Cybersecurity Certifications!",
-      imageURL: "https://www.guvi.in/blog/wp-content/uploads/2021/03/Blog-9-600x314.png",
+      imageURL: "https://www.guvi.in/blog/wp-content/uploads/2023/09/Feature-image-What-Is-Hacking_-Types-of-Hacking-More.webp",
       referenceURL: "https://www.guvi.in/blog/cybersecurity-certifications/",
       postedBy: "Tushar Vinocha",
       postedOn: "07 Oct, 2023",
@@ -340,7 +340,7 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path="/all" index element={<All blogInfo={blogInfo} />}></Route>
+          <Route path="/" index element={<All blogInfo={blogInfo} />}></Route>
           <Route path="/fsd" element={<FSD blogInfo={blogInfo} />}></Route>
           <Route path="/datascience" element={<DataScience blogInfo={blogInfo} />}></Route>
           <Route path="/cybersecurity" element={<CyberSecurity blogInfo={blogInfo} />}></Route>

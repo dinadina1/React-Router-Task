@@ -13,7 +13,7 @@ const NavBar = () => {
           <a class="navbar-brand">Blog</a>
           <ul className="navbar-nav">
             <li className="nav-item pe-2">
-              <Link to={"/all"} className='nav-link'>All</Link>
+              <Link to={"/"} className='nav-link'>All</Link>
             </li>
             <li className="nav-item pe-2">
               <Link to={"/fsd"} className='nav-link'>Full Stack Development</Link>
