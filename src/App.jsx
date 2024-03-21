@@ -3,7 +3,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js"
 import './App.css'
 import All from './All'
 import NavBar from "./NavBar"
-import { BrowserRouter, Route, Routes } from "react-router-dom"
+import { BrowserRouter, Route, Routes,Navigate } from "react-router-dom"
 import FSD from "./FSD"
 import DataScience from "./DataScience"
 import CyberSecurity from "./CyberSecurity"
@@ -340,11 +340,12 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Routes>
-          <Route path="/" index element={<All blogInfo={blogInfo} />}></Route>
+          <Route exact path="/" index element={<All blogInfo={blogInfo} />}></Route>
           <Route path="/fsd" element={<FSD blogInfo={blogInfo} />}></Route>
           <Route path="/datascience" element={<DataScience blogInfo={blogInfo} />}></Route>
           <Route path="/cybersecurity" element={<CyberSecurity blogInfo={blogInfo} />}></Route>
           <Route path="/career" element={<Career blogInfo={blogInfo} />}></Route>
+          <Route path="*" element={<Navigate to="/" />} />
         </Routes>
       </BrowserRouter>
     </>
